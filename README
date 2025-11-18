@@ -1,0 +1,33 @@
+# random-terminal-phrase
+
+A simple Python CLI tool that prints a random phrase to your terminal!
+
+## Usage
+
+1. **Install requirements:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the CLI tool:**
+
+   ```bash
+   python phrase.py
+   ```
+
+3. **Add to your shell profile for greeting on each load:**
+
+   Add this line to your `~/.bashrc`, `~/.zshrc`, etc.:
+
+   ```bash
+   python /path/to/phrase.py
+   ```
+
+## Customizing Phrases
+
+Edit `phrases.txt` to add your favorite phrases.
+
+## License
+
+MIT
